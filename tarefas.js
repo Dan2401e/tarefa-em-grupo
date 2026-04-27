@@ -1,6 +1,6 @@
 // tarefas.js - Sistema de Lista de Tarefas
 let tarefas = [];
-let titulo = "SISTEMA DE TAREFAS";
+let titulo = "resumo().";
 function adicionarTarefa(descricao) {
   tarefas.push({ descricao: descricao, concluida: false });
   console.log("Tarefa adicionada: " + descricao);
